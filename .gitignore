@@ -1,0 +1,24 @@
+# uv
+.venv/
+
+# secrets
+.env
+
+# database files
+db/*.db
+db/chroma/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.mypy_cache/
+.ruff_cache/
+
+# data uploads
+data/
+
+# streamlit
+.streamlit/
+
+.DS_Store
